@@ -17,7 +17,7 @@
 
     <style>
         .eb {
-            font-family: "Poppins", serif;
+          font-family: "EB Garamond", serif;
         }
         .pop {
             font-family: "Poppins", serif;
@@ -130,8 +130,44 @@
     </header>
     <main>
         <!-- Provide area -->
-        <section class="w-full lg:w-4/5 mx-auto my-20 h-[750px] bg-[url(./images/banner.png)] bg-contain bg-no-repeat">
+        <section class="w-full 
+                        lg:w-4/5 
+                        mx-auto 
+                        my-20 
+                        h-[700px] 
+                        relative
+                        overflow-hidden
+                        block
+                        z-10
+                        
+                        bg-[url(./images/banner.png)] 
+                        bg-contain 
+                        bg-no-repeat
+                        bg-center
 
+                        before:content-['']
+                        before:absolute
+                        before:inset-0
+                        before:block
+                        before:bg-gradient-to-t
+                        before:from-neutral-900
+                        before:to-gray-50
+                        before:opacity-10
+                        before:z-[-5]">
+            <div class="flex flex-col w-11/12 lg:7/12 justify-center h-[700px] items-center text-center mx-auto my-auto gap-5">
+              <h1 class="text-white eb text-7xl font-bold leading-[75px]">
+                We Provide Effective <br class="hidden lg:block"> Legal Solutions
+              </h1>
+              <p class="text-[#e7e7e7] pop text-base font-normal">
+                There are many variations of passages of Lorem Ipsum available, but the majority <br class="hidden lg:block"> have suffered alteration in some form, by injected humour.
+              </p>
+              <div>
+                <input type="text" class="w-96 h-14 rounded-lg">
+                <button class="ml-6 pop font-semibold text-[20px] text-white bg-[#B68C5A] px-10 py-[14px] rounded-lg">
+                  Search
+                </button>
+              </div>
+            </div>
         </section>
     </main>
 </body>
