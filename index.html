@@ -422,7 +422,7 @@
             <!-- Contact cards -->
             <div class="grid grid-cols-1 md:grid-cols-2">
               <!-- C Card 1 -->
-              <div class="bg-gray-100 p-20 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0">
+              <div class="bg-gray-100 p-16 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0">
                 <img src="images/address.png" alt="Address icon">
                 <h1 class="my-4 eb text-2xl font-bold">
                   Address
@@ -436,7 +436,7 @@
               </div>
 
               <!-- C Card 2 -->
-              <div class="bg-gray-100 p-20 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0 md:border-r-0">
+              <div class="bg-gray-100 p-16 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0 md:border-r-0">
                 <img src="images/call.png" alt="Call icon">
                 <h1 class="my-4 eb text-2xl font-bold">
                   Call Us
@@ -450,7 +450,7 @@
               </div>
 
               <!-- C Card 3 -->
-              <div class="bg-gray-100 p-20 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0 md:border-b-0">
+              <div class="bg-gray-100 p-16 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0 md:border-b-0">
                 <img src="images/email.png" alt="Email icon">
                 <h1 class="my-4 eb text-2xl font-bold">
                   Email Us
@@ -464,7 +464,7 @@
               </div>
 
               <!-- C Card 4 -->
-              <div class="bg-gray-100 p-20 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0 md:border-b-0 md:border-r-0">
+              <div class="bg-gray-100 p-16 flex flex-col items-center border-4 border-gray-300 md:border-l-0 md:border-t-0 md:border-b-0 md:border-r-0">
                 <img src="images/time.png" alt="Email icon">
                 <h1 class="my-4 eb text-2xl font-bold">
                   Working Hours
@@ -480,8 +480,12 @@
             </div>
 
             <!-- Contact Inputs -->
-            <div>
-              <input type="text" placeholder="Your Name" class="bg-gray-100 input input-bordered w-full max-w-xs border-0" />
+            <div class="basis-5/12 flex flex-col justify-between gap-5 lg:gap-0">
+              <input type="text" placeholder="Your Name" class="bg-gray-100 input input-bordered w-full border-0 h-16 placeholder:text-gray-600 pop" />
+              <input type="text" placeholder="Your Email" class="bg-gray-100 input input-bordered w-full border-0 h-16 placeholder:text-gray-600 pop" />
+              <input type="text" placeholder="Subject" class="bg-gray-100 input input-bordered w-full border-0 h-16 placeholder:text-gray-600 pop" />
+              <input type="text" placeholder="Your Message" class="bg-gray-100 input input-bordered w-full border-0 h-40 placeholder:text-gray-600 pop" />
+              <button class="btn btn-wide w-full bg-[#B68C5A] pop font-semibold text-base text-white h-16">Send Message</button>
             </div>
           </div>
         </section>
